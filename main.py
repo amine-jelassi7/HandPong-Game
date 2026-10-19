@@ -66,7 +66,7 @@ class HandTrackingApp:
                 self.video_label.config(image=tk_img)
                 self.video_label.image = tk_img
 
-        self.window.after(10, self.update_frame)
+        self.window.after(5, self.update_frame)
 
     def on_closing(self):
         if self.cap.isOpened():
