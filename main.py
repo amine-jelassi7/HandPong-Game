@@ -48,7 +48,7 @@ class HandTrackingApp:
 
         self.title_label = tk.Label(
             self.score_frame,
-            text="CYBERSMASH PONG",
+            text="HANDPONG",
             font=("Helvetica", 24, "bold"),
             fg="#FFFFFF",
             bg="#2d2d2d",
